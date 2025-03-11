@@ -1,4 +1,3 @@
-Perfeito! Aqui está um arquivo README.md detalhado para o seu projeto, cobrindo os aspectos que você mencionou:
 # PDF Extractor para CCB (Cédula de Crédito Bancário)
 
 Este projeto tem como objetivo extrair dados específicos de um arquivo PDF de Cédula de Crédito Bancário (CCB) e salvar esses dados em formato JSON.

@@ -46,15 +46,6 @@ A função `extract_data` na classe `PDFExtractor` é responsável por ler o arq
 
 1.  **Leitura do Conteúdo:** Utiliza a biblioteca `PyPDF2` para abrir o arquivo PDF e extrair o texto da primeira página.
 
-    ```python
-### with open(self.pdf_file, 'rb') as file:
-
-| reader = PyPDF2.PdfReader(file) |
-|---|
-        page = reader.pages[0]
-        self.text = page.extract_text()
-    ```
-
 2.  **Limpeza do Texto:** Realiza substituições para lidar com caracteres especiais, como espaços não separáveis (`\xa0`) e a ligadura "ﬁ", que podem atrapalhar a extração dos dados.
 
     ```python

@@ -51,8 +51,6 @@ A função `extract_data` na classe `PDFExtractor` é responsável por ler o arq
 
 | reader = PyPDF2.PdfReader(file) |
 |---|
-
-
         page = reader.pages[0]
         self.text = page.extract_text()
     ```
